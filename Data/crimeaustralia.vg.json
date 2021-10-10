@@ -9,7 +9,6 @@
     "params": [{
       "name" : "Year_highlight",
       "value" : 1993,
-      "field" : "Year",
       "bind" : {"input": "range", "min": 1993, "max":2020, "step":1}
     }],
     "mark": "circle",
@@ -25,10 +24,6 @@
          "scale": {"domain": [60, 110]},
          "title": "Sexual Assult"
         },
-       "opacity": {
-           "condition": {"param": "Year_highlight", "value": 0.6},
-           "value": 0.2
-       },
 
          "size": {
            "field": "Robbery",
