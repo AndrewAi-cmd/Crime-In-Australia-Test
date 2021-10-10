@@ -9,6 +9,7 @@
     "params": [{
       "name" : "Year",
       "value" : 1993,
+      "field" : "Year",
       "bind" : {"input": "range", "min": 1993, "max":2020, "step":1}
     }],
     "mark": "circle",
